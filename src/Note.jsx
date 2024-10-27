@@ -4,11 +4,11 @@ import Heading from "./Headers";
 
 function Note() {
       return (
-            <div>
-                  <note className="note">
+            <div className = "note" >
+                  
                         <h1 >My Title</h1>
                         <p>My content</p>
-                  </note>
+                  
             </div>
       )
 }
